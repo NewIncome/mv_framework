@@ -7,6 +7,28 @@ $breakpoints: (
 "-xl": 1440px,
 );
 
+$axis: (
+  "t":"top",
+  "b":"bottom",
+  "l":"left",
+  "r":"right",
+);
+
+$displays: (
+  "f":"flex",
+  "h":"hidden",
+  "b":"block",
+  "n":"none",
+);
+
+$xalignflex: (
+  "center":"center",
+  "start":"flex-start",
+  "end":"flex-end",
+  "between":"space-between",
+  "around":"space-around",
+);
+
 $col-margin: 15px;
 
 .row {
@@ -46,7 +68,6 @@ body {
 @each $key, $value in $breakpoints {
   .container#{$key} {
     margin: 0 auto;
-    max-width: $value;
   }
   @media screen and (min-width: $value) {
     @for $i from 1 through 12 {
@@ -56,57 +77,25 @@ body {
         width: #{(100*$i)/12 *1%} ;
       }
     }
-  }
-}
-
-$axis: (
-  "t":"top",
-  "b":"bottom",
-  "l":"left",
-  "r":"right",
-);
-
-@each $key, $value in $breakpoints {
-  @media screen and (min-width: $value) {
-    @each $mkey, $mvalue in $axis {
-      @for $i from 0 through 4 {
-        .m#{$mkey}#{$key}-#{$i} {
-          margin-#{$mvalue}: #{$i/4}rem;
-        }
-        .p#{$mkey}#{$key}-#{$i} {
-          padding-#{$mvalue}: #{$i/4}rem;
+      @each $mkey, $mvalue in $axis {
+        @for $i from 0 through 4 {
+          .m#{$mkey}#{$key}-#{$i} {
+            margin-#{$mvalue}: #{$i/4}rem;
+          }
+          .p#{$mkey}#{$key}-#{$i} {
+            padding-#{$mvalue}: #{$i/4}rem;
+          }
         }
       }
-    }
-  }
-}
-
-$displays: (
-  "f":"flex",
-  "h":"hidden",
-  "b":"block",
-  "n":"none",
-);
-
-$xalignflex: (
-  "center":"center",
-  "start":"flex-start",
-  "end":"flex-end",
-  "between":"space-between",
-  "around":"space-around",
-);
-
-@each $key, $value in $breakpoints {
-  @media screen and (min-width: $value) {
-    @each $dkey, $dvalue in $displays {
-      .d#{$dkey}#{$key} {
-        display: #{$dvalue};
-      }
-      @if $dkey == "f" {
-        @each $xkey, $xvalue in $xalignflex {
-            .flex#{$key}-#{$xkey} { justify-content: #{$xvalue}; }
+      @each $dkey, $dvalue in $displays {
+        .d#{$dkey}#{$key} {
+          display: #{$dvalue};
+        }
+        @if $dkey == "f" {
+          @each $xkey, $xvalue in $xalignflex {
+              .flex#{$key}-#{$xkey} { justify-content: #{$xvalue}; }
+          }
         }
       }
-    }
   }
 }
