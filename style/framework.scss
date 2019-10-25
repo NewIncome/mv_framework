@@ -1,9 +1,9 @@
 $breakpoints: (
-  "xl": 1440px,
-  "lg": 1024px,
-  "md": 767px,
-  "sm": 575px,
-  "xs": 425px,
+"xs": 425px,
+"sm": 575px,
+"md": 767px,
+"lg": 1024px,
+"xl": 1440px,
 );
 
 $col-margin: 15px;
@@ -11,32 +11,48 @@ $col-margin: 15px;
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 0 1rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .flex-col { flex-direction: column; }
 
 .col {
   flex-grow: 1;
-  max-width: 100%;
   margin: 0 $col-margin;
+  width: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .container {
   width: 90%;
-  max-width: 1440px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 @each $key, $value in $breakpoints {
   .container-#{$key} {
-    max-width: $value;
     margin: 0 auto;
+    max-width: $value;
   }
-  @media screen and (max-width: $value) {
+  @media screen and (min-width: $value) {
     @for $i from 1 through 12 {
       .col-#{$key}-#{$i} {
         flex-grow: 0;
-        width: calc(100% / #{13-$i});
+        padding: 0 10px;
+        width: #{(100*$i)/12 *1%} ;
       }
     }
   }
