@@ -1,0 +1,43 @@
+$breakpoints: (
+  "xl": 1440px,
+  "lg": 1024px,
+  "md": 767px,
+  "sm": 575px,
+  "xs": 425px,
+);
+
+$col-margin: 15px;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-col { flex-direction: column; }
+
+.col {
+  flex-grow: 1;
+  max-width: 100%;
+  margin: 0 $col-margin;
+}
+
+.container {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@each $key, $value in $breakpoints {
+  .container-#{$key} {
+    max-width: $value;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: $value) {
+    @for $i from 1 through 12 {
+      .col-#{$key}-#{$i} {
+        flex-grow: 0;
+        width: calc(100% / #{13-$i});
+      }
+    }
+  }
+}
