@@ -1,9 +1,10 @@
 $breakpoints: (
-"xs": 425px,
-"sm": 575px,
-"md": 767px,
-"lg": 1024px,
-"xl": 1440px,
+"": 1px,
+"-xs": 425px,
+"-sm": 575px,
+"-md": 767px,
+"-lg": 1024px,
+"-xl": 1440px,
 );
 
 $col-margin: 15px;
@@ -43,16 +44,68 @@ body {
 }
 
 @each $key, $value in $breakpoints {
-  .container-#{$key} {
+  .container#{$key} {
     margin: 0 auto;
     max-width: $value;
   }
   @media screen and (min-width: $value) {
     @for $i from 1 through 12 {
-      .col-#{$key}-#{$i} {
+      .col#{$key}-#{$i} {
         flex-grow: 0;
         padding: 0 10px;
         width: #{(100*$i)/12 *1%} ;
+      }
+    }
+  }
+}
+
+$axis: (
+  "t":"top",
+  "b":"bottom",
+  "l":"left",
+  "r":"right",
+);
+
+@each $key, $value in $breakpoints {
+  @media screen and (min-width: $value) {
+    @each $mkey, $mvalue in $axis {
+      @for $i from 0 through 4 {
+        .m#{$mkey}#{$key}-#{$i} {
+          margin-#{$mvalue}: #{$i/4}rem;
+        }
+        .p#{$mkey}#{$key}-#{$i} {
+          padding-#{$mvalue}: #{$i/4}rem;
+        }
+      }
+    }
+  }
+}
+
+$displays: (
+  "f":"flex",
+  "h":"hidden",
+  "b":"block",
+  "n":"none",
+);
+
+$xalignflex: (
+  "center":"center",
+  "start":"flex-start",
+  "end":"flex-end",
+  "between":"space-between",
+  "around":"space-around",
+);
+
+@each $key, $value in $breakpoints {
+  @media screen and (min-width: $value) {
+    @each $dkey, $dvalue in $displays {
+      .d#{$dkey}#{$key} {
+        display: #{$dvalue};
+      }
+      @if $dkey == "f" {
+        @each $xkey, $xvalue in $xalignflex {
+            .flex#{$key}-#{$xkey} { justify-content: #{$xvalue}; }
+        }
       }
     }
   }
