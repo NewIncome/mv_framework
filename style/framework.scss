@@ -8,10 +8,11 @@ $breakpoints: (
 );
 
 $axis: (
-  "t":"top",
-  "b":"bottom",
-  "l":"left",
-  "r":"right",
+  "":"",
+  "t":"-top",
+  "b":"-bottom",
+  "l":"-left",
+  "r":"-right",
 );
 
 $displays: (
@@ -40,7 +41,7 @@ $col-margin: 15px;
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 0 1rem;
+  padding: 0 0 1rem;
 }
 
 body {
@@ -82,12 +83,12 @@ body {
       }
     }
       @each $mkey, $mvalue in $axis {
-        @for $i from 0 through 4 {
+        @for $i from 0 through 6 {
           .m#{$mkey}#{$key}-#{$i} {
-            margin-#{$mvalue}: #{$i/4}rem;
+            margin#{$mvalue}: #{$i/2}rem !important;
           }
           .p#{$mkey}#{$key}-#{$i} {
-            padding-#{$mvalue}: #{$i/4}rem;
+            padding#{$mvalue}: #{$i/2}rem !important;
           }
         }
       }
@@ -104,6 +105,11 @@ body {
       @each $ykey, $yvalue in $align-self {
         .align-#{$ykey} {
           align-self: #{$yvalue};
+        }
+      }
+      @each $ykey, $yvalue in $align-self {
+        .text-#{$ykey} {
+          text-align: #{$yvalue};
         }
       }
   }
