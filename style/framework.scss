@@ -36,6 +36,24 @@ $align-self: (
   "end":"end",
 );
 
+$border: (
+  "":"",
+  "top":"-top",
+  "bottom":"-bottom",
+);
+
+$color: (
+  "light": "#dee2e6",
+  "dark": "#000",
+  "release":"#a07cbc",
+  "success":"#61b921",
+  "halloween":"#c27c18",
+  "warning": "#fff3cd",
+  "fedora": "#3c6eb4",
+  "white":"#fff",
+  "fedora-dark":"#294172",
+);
+
 $col-margin: 15px;
 
 .row {
@@ -110,6 +128,15 @@ body {
       @each $ykey, $yvalue in $align-self {
         .text-#{$ykey} {
           text-align: #{$yvalue};
+        }
+      }
+      @each $borderkey, $bordervalue in $border {
+        @each $colorkey, $colorvalue in $color {
+          @for $i from 0 through 5 {
+            .border#{$bordervalue}-#{$i}-#{$colorkey} {
+              border: #{$i/10}rem solid #{$colorvalue}; 
+            }
+          }
         }
       }
   }

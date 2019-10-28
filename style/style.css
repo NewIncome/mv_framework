@@ -342,7 +342,493 @@ body {
     text-align: start; }
 
   .text-end {
-    text-align: end; } }
+    text-align: end; }
+
+  .border-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-0-dark {
+    border: 0rem solid #000; }
+
+  .border-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-0-white {
+    border: 0rem solid #fff; }
+
+  .border-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-5-fedora-dark {
+    border: 0.5rem solid #294172; }
+
+  .border-top-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-top-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-top-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-top-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-top-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-top-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-top-0-dark {
+    border: 0rem solid #000; }
+
+  .border-top-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-top-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-top-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-top-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-top-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-top-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-top-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-top-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-top-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-top-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-top-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-top-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-top-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-top-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-top-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-top-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-top-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-top-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-top-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-top-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-top-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-top-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-top-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-top-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-top-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-top-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-top-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-top-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-top-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-top-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-top-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-top-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-top-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-top-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-top-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-top-0-white {
+    border: 0rem solid #fff; }
+
+  .border-top-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-top-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-top-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-top-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-top-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-top-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-top-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-top-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-top-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-top-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-top-5-fedora-dark {
+    border: 0.5rem solid #294172; }
+
+  .border-bottom-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-bottom-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-bottom-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-bottom-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-bottom-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-bottom-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-bottom-0-dark {
+    border: 0rem solid #000; }
+
+  .border-bottom-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-bottom-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-bottom-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-bottom-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-bottom-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-bottom-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-bottom-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-bottom-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-bottom-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-bottom-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-bottom-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-bottom-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-bottom-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-bottom-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-bottom-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-bottom-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-bottom-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-bottom-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-bottom-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-bottom-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-bottom-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-bottom-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-bottom-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-bottom-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-bottom-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-bottom-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-bottom-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-bottom-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-bottom-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-bottom-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-bottom-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-bottom-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-bottom-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-bottom-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-bottom-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-bottom-0-white {
+    border: 0rem solid #fff; }
+
+  .border-bottom-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-bottom-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-bottom-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-bottom-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-bottom-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-bottom-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-bottom-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-bottom-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-bottom-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-bottom-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-bottom-5-fedora-dark {
+    border: 0.5rem solid #294172; } }
 .container-xs {
   margin: 0 auto; }
 
@@ -660,7 +1146,493 @@ body {
     text-align: start; }
 
   .text-end {
-    text-align: end; } }
+    text-align: end; }
+
+  .border-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-0-dark {
+    border: 0rem solid #000; }
+
+  .border-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-0-white {
+    border: 0rem solid #fff; }
+
+  .border-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-5-fedora-dark {
+    border: 0.5rem solid #294172; }
+
+  .border-top-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-top-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-top-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-top-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-top-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-top-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-top-0-dark {
+    border: 0rem solid #000; }
+
+  .border-top-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-top-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-top-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-top-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-top-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-top-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-top-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-top-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-top-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-top-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-top-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-top-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-top-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-top-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-top-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-top-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-top-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-top-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-top-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-top-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-top-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-top-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-top-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-top-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-top-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-top-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-top-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-top-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-top-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-top-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-top-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-top-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-top-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-top-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-top-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-top-0-white {
+    border: 0rem solid #fff; }
+
+  .border-top-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-top-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-top-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-top-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-top-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-top-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-top-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-top-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-top-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-top-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-top-5-fedora-dark {
+    border: 0.5rem solid #294172; }
+
+  .border-bottom-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-bottom-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-bottom-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-bottom-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-bottom-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-bottom-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-bottom-0-dark {
+    border: 0rem solid #000; }
+
+  .border-bottom-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-bottom-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-bottom-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-bottom-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-bottom-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-bottom-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-bottom-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-bottom-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-bottom-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-bottom-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-bottom-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-bottom-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-bottom-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-bottom-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-bottom-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-bottom-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-bottom-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-bottom-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-bottom-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-bottom-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-bottom-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-bottom-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-bottom-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-bottom-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-bottom-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-bottom-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-bottom-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-bottom-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-bottom-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-bottom-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-bottom-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-bottom-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-bottom-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-bottom-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-bottom-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-bottom-0-white {
+    border: 0rem solid #fff; }
+
+  .border-bottom-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-bottom-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-bottom-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-bottom-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-bottom-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-bottom-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-bottom-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-bottom-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-bottom-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-bottom-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-bottom-5-fedora-dark {
+    border: 0.5rem solid #294172; } }
 .container-sm {
   margin: 0 auto; }
 
@@ -978,7 +1950,493 @@ body {
     text-align: start; }
 
   .text-end {
-    text-align: end; } }
+    text-align: end; }
+
+  .border-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-0-dark {
+    border: 0rem solid #000; }
+
+  .border-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-0-white {
+    border: 0rem solid #fff; }
+
+  .border-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-5-fedora-dark {
+    border: 0.5rem solid #294172; }
+
+  .border-top-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-top-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-top-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-top-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-top-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-top-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-top-0-dark {
+    border: 0rem solid #000; }
+
+  .border-top-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-top-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-top-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-top-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-top-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-top-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-top-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-top-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-top-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-top-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-top-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-top-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-top-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-top-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-top-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-top-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-top-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-top-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-top-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-top-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-top-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-top-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-top-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-top-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-top-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-top-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-top-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-top-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-top-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-top-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-top-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-top-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-top-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-top-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-top-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-top-0-white {
+    border: 0rem solid #fff; }
+
+  .border-top-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-top-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-top-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-top-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-top-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-top-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-top-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-top-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-top-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-top-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-top-5-fedora-dark {
+    border: 0.5rem solid #294172; }
+
+  .border-bottom-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-bottom-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-bottom-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-bottom-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-bottom-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-bottom-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-bottom-0-dark {
+    border: 0rem solid #000; }
+
+  .border-bottom-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-bottom-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-bottom-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-bottom-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-bottom-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-bottom-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-bottom-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-bottom-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-bottom-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-bottom-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-bottom-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-bottom-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-bottom-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-bottom-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-bottom-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-bottom-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-bottom-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-bottom-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-bottom-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-bottom-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-bottom-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-bottom-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-bottom-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-bottom-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-bottom-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-bottom-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-bottom-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-bottom-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-bottom-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-bottom-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-bottom-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-bottom-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-bottom-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-bottom-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-bottom-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-bottom-0-white {
+    border: 0rem solid #fff; }
+
+  .border-bottom-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-bottom-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-bottom-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-bottom-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-bottom-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-bottom-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-bottom-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-bottom-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-bottom-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-bottom-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-bottom-5-fedora-dark {
+    border: 0.5rem solid #294172; } }
 .container-md {
   margin: 0 auto; }
 
@@ -1296,7 +2754,493 @@ body {
     text-align: start; }
 
   .text-end {
-    text-align: end; } }
+    text-align: end; }
+
+  .border-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-0-dark {
+    border: 0rem solid #000; }
+
+  .border-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-0-white {
+    border: 0rem solid #fff; }
+
+  .border-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-5-fedora-dark {
+    border: 0.5rem solid #294172; }
+
+  .border-top-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-top-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-top-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-top-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-top-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-top-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-top-0-dark {
+    border: 0rem solid #000; }
+
+  .border-top-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-top-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-top-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-top-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-top-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-top-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-top-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-top-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-top-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-top-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-top-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-top-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-top-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-top-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-top-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-top-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-top-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-top-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-top-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-top-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-top-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-top-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-top-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-top-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-top-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-top-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-top-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-top-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-top-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-top-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-top-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-top-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-top-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-top-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-top-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-top-0-white {
+    border: 0rem solid #fff; }
+
+  .border-top-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-top-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-top-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-top-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-top-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-top-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-top-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-top-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-top-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-top-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-top-5-fedora-dark {
+    border: 0.5rem solid #294172; }
+
+  .border-bottom-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-bottom-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-bottom-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-bottom-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-bottom-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-bottom-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-bottom-0-dark {
+    border: 0rem solid #000; }
+
+  .border-bottom-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-bottom-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-bottom-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-bottom-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-bottom-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-bottom-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-bottom-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-bottom-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-bottom-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-bottom-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-bottom-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-bottom-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-bottom-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-bottom-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-bottom-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-bottom-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-bottom-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-bottom-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-bottom-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-bottom-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-bottom-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-bottom-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-bottom-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-bottom-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-bottom-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-bottom-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-bottom-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-bottom-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-bottom-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-bottom-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-bottom-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-bottom-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-bottom-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-bottom-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-bottom-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-bottom-0-white {
+    border: 0rem solid #fff; }
+
+  .border-bottom-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-bottom-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-bottom-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-bottom-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-bottom-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-bottom-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-bottom-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-bottom-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-bottom-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-bottom-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-bottom-5-fedora-dark {
+    border: 0.5rem solid #294172; } }
 .container-lg {
   margin: 0 auto; }
 
@@ -1614,7 +3558,493 @@ body {
     text-align: start; }
 
   .text-end {
-    text-align: end; } }
+    text-align: end; }
+
+  .border-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-0-dark {
+    border: 0rem solid #000; }
+
+  .border-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-0-white {
+    border: 0rem solid #fff; }
+
+  .border-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-5-fedora-dark {
+    border: 0.5rem solid #294172; }
+
+  .border-top-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-top-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-top-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-top-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-top-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-top-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-top-0-dark {
+    border: 0rem solid #000; }
+
+  .border-top-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-top-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-top-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-top-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-top-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-top-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-top-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-top-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-top-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-top-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-top-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-top-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-top-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-top-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-top-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-top-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-top-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-top-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-top-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-top-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-top-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-top-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-top-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-top-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-top-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-top-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-top-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-top-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-top-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-top-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-top-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-top-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-top-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-top-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-top-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-top-0-white {
+    border: 0rem solid #fff; }
+
+  .border-top-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-top-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-top-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-top-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-top-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-top-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-top-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-top-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-top-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-top-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-top-5-fedora-dark {
+    border: 0.5rem solid #294172; }
+
+  .border-bottom-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-bottom-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-bottom-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-bottom-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-bottom-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-bottom-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-bottom-0-dark {
+    border: 0rem solid #000; }
+
+  .border-bottom-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-bottom-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-bottom-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-bottom-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-bottom-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-bottom-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-bottom-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-bottom-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-bottom-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-bottom-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-bottom-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-bottom-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-bottom-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-bottom-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-bottom-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-bottom-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-bottom-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-bottom-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-bottom-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-bottom-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-bottom-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-bottom-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-bottom-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-bottom-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-bottom-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-bottom-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-bottom-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-bottom-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-bottom-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-bottom-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-bottom-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-bottom-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-bottom-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-bottom-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-bottom-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-bottom-0-white {
+    border: 0rem solid #fff; }
+
+  .border-bottom-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-bottom-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-bottom-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-bottom-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-bottom-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-bottom-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-bottom-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-bottom-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-bottom-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-bottom-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-bottom-5-fedora-dark {
+    border: 0.5rem solid #294172; } }
 .container-xl {
   margin: 0 auto; }
 
@@ -1932,6 +4362,492 @@ body {
     text-align: start; }
 
   .text-end {
-    text-align: end; } }
+    text-align: end; }
+
+  .border-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-0-dark {
+    border: 0rem solid #000; }
+
+  .border-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-0-white {
+    border: 0rem solid #fff; }
+
+  .border-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-5-fedora-dark {
+    border: 0.5rem solid #294172; }
+
+  .border-top-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-top-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-top-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-top-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-top-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-top-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-top-0-dark {
+    border: 0rem solid #000; }
+
+  .border-top-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-top-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-top-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-top-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-top-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-top-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-top-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-top-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-top-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-top-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-top-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-top-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-top-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-top-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-top-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-top-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-top-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-top-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-top-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-top-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-top-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-top-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-top-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-top-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-top-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-top-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-top-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-top-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-top-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-top-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-top-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-top-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-top-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-top-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-top-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-top-0-white {
+    border: 0rem solid #fff; }
+
+  .border-top-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-top-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-top-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-top-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-top-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-top-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-top-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-top-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-top-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-top-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-top-5-fedora-dark {
+    border: 0.5rem solid #294172; }
+
+  .border-bottom-0-light {
+    border: 0rem solid #dee2e6; }
+
+  .border-bottom-1-light {
+    border: 0.1rem solid #dee2e6; }
+
+  .border-bottom-2-light {
+    border: 0.2rem solid #dee2e6; }
+
+  .border-bottom-3-light {
+    border: 0.3rem solid #dee2e6; }
+
+  .border-bottom-4-light {
+    border: 0.4rem solid #dee2e6; }
+
+  .border-bottom-5-light {
+    border: 0.5rem solid #dee2e6; }
+
+  .border-bottom-0-dark {
+    border: 0rem solid #000; }
+
+  .border-bottom-1-dark {
+    border: 0.1rem solid #000; }
+
+  .border-bottom-2-dark {
+    border: 0.2rem solid #000; }
+
+  .border-bottom-3-dark {
+    border: 0.3rem solid #000; }
+
+  .border-bottom-4-dark {
+    border: 0.4rem solid #000; }
+
+  .border-bottom-5-dark {
+    border: 0.5rem solid #000; }
+
+  .border-bottom-0-release {
+    border: 0rem solid #a07cbc; }
+
+  .border-bottom-1-release {
+    border: 0.1rem solid #a07cbc; }
+
+  .border-bottom-2-release {
+    border: 0.2rem solid #a07cbc; }
+
+  .border-bottom-3-release {
+    border: 0.3rem solid #a07cbc; }
+
+  .border-bottom-4-release {
+    border: 0.4rem solid #a07cbc; }
+
+  .border-bottom-5-release {
+    border: 0.5rem solid #a07cbc; }
+
+  .border-bottom-0-success {
+    border: 0rem solid #61b921; }
+
+  .border-bottom-1-success {
+    border: 0.1rem solid #61b921; }
+
+  .border-bottom-2-success {
+    border: 0.2rem solid #61b921; }
+
+  .border-bottom-3-success {
+    border: 0.3rem solid #61b921; }
+
+  .border-bottom-4-success {
+    border: 0.4rem solid #61b921; }
+
+  .border-bottom-5-success {
+    border: 0.5rem solid #61b921; }
+
+  .border-bottom-0-halloween {
+    border: 0rem solid #c27c18; }
+
+  .border-bottom-1-halloween {
+    border: 0.1rem solid #c27c18; }
+
+  .border-bottom-2-halloween {
+    border: 0.2rem solid #c27c18; }
+
+  .border-bottom-3-halloween {
+    border: 0.3rem solid #c27c18; }
+
+  .border-bottom-4-halloween {
+    border: 0.4rem solid #c27c18; }
+
+  .border-bottom-5-halloween {
+    border: 0.5rem solid #c27c18; }
+
+  .border-bottom-0-warning {
+    border: 0rem solid #fff3cd; }
+
+  .border-bottom-1-warning {
+    border: 0.1rem solid #fff3cd; }
+
+  .border-bottom-2-warning {
+    border: 0.2rem solid #fff3cd; }
+
+  .border-bottom-3-warning {
+    border: 0.3rem solid #fff3cd; }
+
+  .border-bottom-4-warning {
+    border: 0.4rem solid #fff3cd; }
+
+  .border-bottom-5-warning {
+    border: 0.5rem solid #fff3cd; }
+
+  .border-bottom-0-fedora {
+    border: 0rem solid #3c6eb4; }
+
+  .border-bottom-1-fedora {
+    border: 0.1rem solid #3c6eb4; }
+
+  .border-bottom-2-fedora {
+    border: 0.2rem solid #3c6eb4; }
+
+  .border-bottom-3-fedora {
+    border: 0.3rem solid #3c6eb4; }
+
+  .border-bottom-4-fedora {
+    border: 0.4rem solid #3c6eb4; }
+
+  .border-bottom-5-fedora {
+    border: 0.5rem solid #3c6eb4; }
+
+  .border-bottom-0-white {
+    border: 0rem solid #fff; }
+
+  .border-bottom-1-white {
+    border: 0.1rem solid #fff; }
+
+  .border-bottom-2-white {
+    border: 0.2rem solid #fff; }
+
+  .border-bottom-3-white {
+    border: 0.3rem solid #fff; }
+
+  .border-bottom-4-white {
+    border: 0.4rem solid #fff; }
+
+  .border-bottom-5-white {
+    border: 0.5rem solid #fff; }
+
+  .border-bottom-0-fedora-dark {
+    border: 0rem solid #294172; }
+
+  .border-bottom-1-fedora-dark {
+    border: 0.1rem solid #294172; }
+
+  .border-bottom-2-fedora-dark {
+    border: 0.2rem solid #294172; }
+
+  .border-bottom-3-fedora-dark {
+    border: 0.3rem solid #294172; }
+
+  .border-bottom-4-fedora-dark {
+    border: 0.4rem solid #294172; }
+
+  .border-bottom-5-fedora-dark {
+    border: 0.5rem solid #294172; } }
 
 /*# sourceMappingURL=style.css.map */
