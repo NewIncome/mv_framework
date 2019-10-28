@@ -29,6 +29,12 @@ $xalignflex: (
   "around":"space-around",
 );
 
+$align-self: (
+  "center":"center",
+  "start":"start",
+  "end":"end",
+);
+
 $col-margin: 15px;
 
 .row {
@@ -49,9 +55,7 @@ body {
 .flex-col { flex-direction: column; }
 
 .col {
-  flex-grow: 1;
   margin: 0 $col-margin;
-  width: 100%;
 }
 
 .container-fluid {
@@ -95,6 +99,11 @@ body {
           @each $xkey, $xvalue in $xalignflex {
               .flex#{$key}-#{$xkey} { justify-content: #{$xvalue}; }
           }
+        }
+      }
+      @each $ykey, $yvalue in $align-self {
+        .align-#{$ykey} {
+          align-self: #{$yvalue};
         }
       }
   }
