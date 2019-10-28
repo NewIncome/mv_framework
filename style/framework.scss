@@ -40,6 +40,8 @@ $border: (
   "":"",
   "top":"-top",
   "bottom":"-bottom",
+  "left":"-left",
+  "right":"-right",
 );
 
 $color: (
@@ -130,14 +132,28 @@ body {
           text-align: #{$yvalue};
         }
       }
-      @each $borderkey, $bordervalue in $border {
-        @each $colorkey, $colorvalue in $color {
-          @for $i from 0 through 5 {
-            .border#{$bordervalue}-#{$i}-#{$colorkey} {
-              border: #{$i/10}rem solid #{$colorvalue}; 
-            }
-          }
-        }
+  }
+}
+@each $colorkey, $colorvalue in $color {
+  @each $borderkey, $bordervalue in $border {
+    @for $i from 0 through 5 {
+      .border#{$bordervalue}-#{$i}-#{$colorkey} {
+        border#{$bordervalue}: #{$i/10}rem solid #{$colorvalue};
       }
+    }
+  }
+  .bg-#{$colorkey} {
+    background-color: #{$colorvalue};
+  }
+  .text-#{$colorkey} {
+    color: #{$colorvalue};
+  }
+}
+@each $radiuskey, $radiusvalue in $border {
+  @for $i from 0 through 3 {
+    @if
+    .radius#{$radiusvalue} {
+      border-radius:
+    }
   }
 }
