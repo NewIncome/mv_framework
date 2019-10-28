@@ -44,7 +44,7 @@ for positioning elements (used mainly for positioning with flex property)
   - (e.g.: col-xs-1)
   - can work with breakpoints
   - flex-col
-
+ 
 Alignment:
 for x-axis justify-content:
 - flex-
