@@ -46,7 +46,7 @@ $border: (
 
 $color: (
   "light": "#dee2e6",
-  "dark": "#000",
+  "dark": "#343a40",
   "release":"#a07cbc",
   "success":"#61b921",
   "halloween":"#c27c18",
@@ -103,12 +103,22 @@ body {
       }
     }
       @each $mkey, $mvalue in $axis {
-        @for $i from 0 through 6 {
-          .m#{$mkey}#{$key}-#{$i} {
-            margin#{$mvalue}: #{$i/2}rem !important;
+        @for $i from -8 through 8 {
+          @if $i >= 0 {
+            .m#{$mkey}#{$key}-#{$i} {
+              margin#{$mvalue}: #{$i/2}rem !important;
+            }
+            .p#{$mkey}#{$key}-#{$i} {
+              padding#{$mvalue}: #{$i/2}rem !important;
+            }
           }
-          .p#{$mkey}#{$key}-#{$i} {
-            padding#{$mvalue}: #{$i/2}rem !important;
+          @else {
+            .m#{$mkey}#{$key}-n#{$i} {
+              margin#{$mvalue}: #{$i/2}rem !important;
+            }
+            .p#{$mkey}#{$key}-n#{$i} {
+              padding#{$mvalue}: #{$i/2}rem !important;
+            }
           }
         }
       }
@@ -150,10 +160,19 @@ body {
   }
 }
 @each $radiuskey, $radiusvalue in $border {
-  @for $i from 0 through 3 {
-    @if
-    .radius#{$radiusvalue} {
-      border-radius:
+  @for $i from 0 through 4 {
+    @if $radiuskey == 'top' or $radiuskey == 'bottom'{
+      .radius#{$radiusvalue}-#{$i} {
+        border#{$radiusvalue}-right-radius: #{$i}rem ;
+        border#{$radiusvalue}-left-radius: #{$i}rem;
+      }
+
+    }
+    @else {
+      .radius#{$radiusvalue}-#{$i} {
+        border-top#{$radiusvalue}-radius: #{$i}rem ;
+        border-bottom#{$radiusvalue}-radius: #{$i}rem ;
+      }
     }
   }
 }
