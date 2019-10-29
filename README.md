@@ -8,10 +8,10 @@ Technologies used: **HTML**, **CSS** and **SASS**.
 
 Main usage points for the framework used with css, main topics:
 1. [Breakpoints](#Breakpoints)
-2. [Sizes](##Sizes)
+2. [Sizes](#Sizes)
 3. [Sides](#Sides)
-4. [Paddings and Margins](#Paddings and Margins)
-5. [Classes](#Classes defined)
+4. [Paddings and Margins](#Paddings)
+5. [Classes](#Classes)
 6. [Alignment](#Alignment)
 7. [Border](#Border)
 
