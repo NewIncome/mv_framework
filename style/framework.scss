@@ -22,6 +22,19 @@ $displays: (
   "n":"none",
 );
 
+$position: (
+  "rel":"relative",
+  "abs":"absolute",
+  "fix":"fixed",
+);
+
+$floats: (
+  "l": "left",
+  "r": "right",
+  "n": "none",
+  "b": "both",
+);
+
 $xalignflex: (
   "center":"center",
   "start":"flex-start",
@@ -54,6 +67,12 @@ $color: (
   "fedora": "#3c6eb4",
   "white":"#fff",
   "fedora-dark":"#294172",
+);
+
+$weight: (
+  "b":"bold",
+  "n":"normal",
+  "l":"lighter",
 );
 
 $col-margin: 15px;
@@ -166,7 +185,6 @@ body {
         border#{$radiusvalue}-right-radius: #{$i}rem ;
         border#{$radiusvalue}-left-radius: #{$i}rem;
       }
-
     }
     @else {
       .radius#{$radiusvalue}-#{$i} {
@@ -174,5 +192,35 @@ body {
         border-bottom#{$radiusvalue}-radius: #{$i}rem ;
       }
     }
+  }
+}
+@each $floatkey, $floatvalue in $floats {
+  @if $floatkey == 'b'{
+    .clear-#{$floatkey} {
+      clear: #{$floatvalue} ;
+    }
+  } @else {
+    .float-#{$floatkey} {
+      float: #{$floatvalue} ;
+    }
+    .clear-#{$floatkey} {
+      clear: #{$floatvalue} ;
+    }
+  }
+}
+@each $positionkey, $positionvalue in $position{
+  .pos-#{$positionkey} {
+    position: #{$positionvalue} ;
+  }
+}
+@for $i from 1 through 8 {
+  .text-#{$i} {
+    font-size: #{$i * 0.5}rem ;
+  }
+}
+
+@each $wkey, $wvalue in $weight {
+  .text-#{$wkey} {
+    font-weight: #{$wvalue} ;
   }
 }

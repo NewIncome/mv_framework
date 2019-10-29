@@ -4697,4 +4697,67 @@ body {
   border-top-right-radius: 4rem;
   border-bottom-right-radius: 4rem; }
 
+.float-l {
+  float: left; }
+
+.clear-l {
+  clear: left; }
+
+.float-r {
+  float: right; }
+
+.clear-r {
+  clear: right; }
+
+.float-n {
+  float: none; }
+
+.clear-n {
+  clear: none; }
+
+.clear-b {
+  clear: both; }
+
+.pos-rel {
+  position: relative; }
+
+.pos-abs {
+  position: absolute; }
+
+.pos-fix {
+  position: fixed; }
+
+.text-1 {
+  font-size: 0.5rem; }
+
+.text-2 {
+  font-size: 1rem; }
+
+.text-3 {
+  font-size: 1.5rem; }
+
+.text-4 {
+  font-size: 2rem; }
+
+.text-5 {
+  font-size: 2.5rem; }
+
+.text-6 {
+  font-size: 3rem; }
+
+.text-7 {
+  font-size: 3.5rem; }
+
+.text-8 {
+  font-size: 4rem; }
+
+.text-b {
+  font-weight: bold; }
+
+.text-n {
+  font-weight: normal; }
+
+.text-m {
+  font-weight: medium; }
+
 /*# sourceMappingURL=style.css.map */
