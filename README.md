@@ -10,7 +10,7 @@ Main usage points for the framework used with css, main topics:
 1. [Breakpoints](#Breakpoints)
 2. [Sizes](#Sizes)
 3. [Sides](#Sides)
-4. [Paddings and Margins](#Paddings)
+4. [Paddings and Margins](#Paddings-Margins)
 5. [Classes](#Classes)
 6. [Alignment](#Alignment)
 7. [Border](#Border)
@@ -38,14 +38,14 @@ used mainly for paddings, margins
 - l -> left
 - r -> right
 
-## Paddings and Margins:
+## Paddings-Margins:
 for each side and for each breakpoint
   - p(side)-(breakpoint)
     - pt, pb, pl and pr (e.g.: pr-xs)
   - m
     - mt, mb, ml and mr
 
-## Classes defined:
+## Classes:
 for positioning elements (used mainly for positioning with flex property)
 - container
 - container-fluid
