@@ -1,14 +1,14 @@
 # mv_framework
 This project is to take everything learned so far and use it to build our own simple grid-based framework (the scss file).
-It also consists of a second part which is building a website with the recently made framework; site built: getfedora.org.
+It also consists of a second part which is building a website with the recently made framework; site built: [getfedora](https://getfedora.org/).
 
 Technologies used: **HTML**, **CSS** and **SASS**.
 
-##Content:
+## Content:
 
 Main usage points for the framework used with css
 
-Breakpoints:
+## Breakpoints:
 for added responsiveness for different screen sizes
 - xs -> 425px
 - sm -> 575px
@@ -16,27 +16,27 @@ for added responsiveness for different screen sizes
 - lg -> 1024px
 - xl -> 1440px
 
-Sizes:
+## Sizes:
 for col Sizes
 - columns go inside rows and are divided in 12 spans (1 - 12)
 for paddings and margins
 - -8 to 8 which translates to: -4rem to 4rem
 
-Sides:
+## Sides:
 used mainly for paddings, margins
 - t -> top
 - b -> bottom
 - l -> left
 - r -> right
 
-Paddings and Margins:
+## Paddings and Margins:
 for each side and for each breakpoint
   - p(side)-(breakpoint)
     - pt, pb, pl and pr (e.g.: pr-xs)
   - m
     - mt, mb, ml and mr
 
-Classes defined:
+## Classes defined:
 for positioning elements (used mainly for positioning with flex property)
 - container
 - container-fluid
@@ -45,7 +45,7 @@ for positioning elements (used mainly for positioning with flex property)
   - can work with breakpoints
   - flex-col
  
-Alignment:
+## Alignment:
 for x-axis justify-content:
 - flex-
   - center, start, end , between and around
@@ -53,7 +53,7 @@ for y-axis align-self:
 - align-
   - center, start and end
 
-Border:
+## Border:
 used with rem values from 0 to 4 and worked with for 2 corners ata time
 - top (top left and right)
 - bottom (bottom left and right)
@@ -61,7 +61,7 @@ used with rem values from 0 to 4 and worked with for 2 corners ata time
 - right (right top and bottom)
 
 
-Githack Clone link:
+## Githack Clone link:
 * [Production](https://rawcdn.githack.com/NewIncome/mv_framework/b1cfb3e2ecbe3193fe6d7c0096fb541def15fcd0/index.html)
 
 * [Development](https://raw.githack.com/NewIncome/mv_framework/feature/index.html)
@@ -71,6 +71,6 @@ Githack Clone link:
 For more info, check the [Odin Project](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework)
 
 
-Collaborators & profiles link:
+## Collaborators & profiles link:
 - Allison Peres - [GitHub](https://github.com/alissonperes)
 - J.Alfredo Cardenas - [GitHub](https://github.com/newincome)
