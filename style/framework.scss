@@ -1,0 +1,226 @@
+$breakpoints: (
+"": 1px,
+"-xs": 425px,
+"-sm": 575px,
+"-md": 767px,
+"-lg": 1024px,
+"-xl": 1440px,
+);
+
+$axis: (
+  "":"",
+  "t":"-top",
+  "b":"-bottom",
+  "l":"-left",
+  "r":"-right",
+);
+
+$displays: (
+  "f":"flex",
+  "h":"hidden",
+  "b":"block",
+  "n":"none",
+);
+
+$position: (
+  "rel":"relative",
+  "abs":"absolute",
+  "fix":"fixed",
+);
+
+$floats: (
+  "l": "left",
+  "r": "right",
+  "n": "none",
+  "b": "both",
+);
+
+$xalignflex: (
+  "center":"center",
+  "start":"flex-start",
+  "end":"flex-end",
+  "between":"space-between",
+  "around":"space-around",
+);
+
+$align-self: (
+  "center":"center",
+  "start":"start",
+  "end":"end",
+);
+
+$border: (
+  "":"",
+  "top":"-top",
+  "bottom":"-bottom",
+  "left":"-left",
+  "right":"-right",
+);
+
+$color: (
+  "light": "#dee2e6",
+  "dark": "#343a40",
+  "release":"#a07cbc",
+  "success":"#61b921",
+  "halloween":"#c27c18",
+  "warning": "#fff3cd",
+  "fedora": "#3c6eb4",
+  "white":"#fff",
+  "fedora-dark":"#294172",
+);
+
+$weight: (
+  "b":"bold",
+  "n":"normal",
+  "l":"lighter",
+);
+
+$col-margin: 15px;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 1rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-col { flex-direction: column; }
+
+.col {
+  margin: 0 $col-margin;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+@each $key, $value in $breakpoints {
+  .container#{$key} {
+    margin: 0 auto;
+  }
+  @media screen and (min-width: $value) {
+    @for $i from 1 through 12 {
+      .col#{$key}-#{$i} {
+        flex-grow: 0;
+        padding: 0 10px;
+        width: #{(100*$i)/12 *1%} ;
+      }
+    }
+      @each $mkey, $mvalue in $axis {
+        @for $i from -8 through 8 {
+          @if $i >= 0 {
+            .m#{$mkey}#{$key}-#{$i} {
+              margin#{$mvalue}: #{$i/2}rem !important;
+            }
+            .p#{$mkey}#{$key}-#{$i} {
+              padding#{$mvalue}: #{$i/2}rem !important;
+            }
+          }
+          @else {
+            .m#{$mkey}#{$key}-n#{$i} {
+              margin#{$mvalue}: #{$i/2}rem !important;
+            }
+            .p#{$mkey}#{$key}-n#{$i} {
+              padding#{$mvalue}: #{$i/2}rem !important;
+            }
+          }
+        }
+      }
+      @each $dkey, $dvalue in $displays {
+        .d#{$dkey}#{$key} {
+          display: #{$dvalue};
+        }
+        @if $dkey == "f" {
+          @each $xkey, $xvalue in $xalignflex {
+              .flex#{$key}-#{$xkey} { justify-content: #{$xvalue}; }
+          }
+        }
+      }
+      @each $ykey, $yvalue in $align-self {
+        .align-#{$ykey} {
+          align-self: #{$yvalue};
+        }
+      }
+      @each $ykey, $yvalue in $align-self {
+        .text-#{$ykey} {
+          text-align: #{$yvalue};
+        }
+      }
+  }
+}
+@each $colorkey, $colorvalue in $color {
+  @each $borderkey, $bordervalue in $border {
+    @for $i from 0 through 5 {
+      .border#{$bordervalue}-#{$i}-#{$colorkey} {
+        border#{$bordervalue}: #{$i/10}rem solid #{$colorvalue};
+      }
+    }
+  }
+  .bg-#{$colorkey} {
+    background-color: #{$colorvalue};
+  }
+  .text-#{$colorkey} {
+    color: #{$colorvalue};
+  }
+}
+@each $radiuskey, $radiusvalue in $border {
+  @for $i from 0 through 4 {
+    @if $radiuskey == 'top' or $radiuskey == 'bottom'{
+      .radius#{$radiusvalue}-#{$i} {
+        border#{$radiusvalue}-right-radius: #{$i}rem ;
+        border#{$radiusvalue}-left-radius: #{$i}rem;
+      }
+    }
+    @else {
+      .radius#{$radiusvalue}-#{$i} {
+        border-top#{$radiusvalue}-radius: #{$i}rem ;
+        border-bottom#{$radiusvalue}-radius: #{$i}rem ;
+      }
+    }
+  }
+}
+@each $floatkey, $floatvalue in $floats {
+  @if $floatkey == 'b'{
+    .clear-#{$floatkey} {
+      clear: #{$floatvalue} ;
+    }
+  } @else {
+    .float-#{$floatkey} {
+      float: #{$floatvalue} ;
+    }
+    .clear-#{$floatkey} {
+      clear: #{$floatvalue} ;
+    }
+  }
+}
+@each $positionkey, $positionvalue in $position{
+  .pos-#{$positionkey} {
+    position: #{$positionvalue} ;
+  }
+}
+@for $i from 1 through 8 {
+  .text-#{$i} {
+    font-size: #{$i * 0.5}rem ;
+  }
+}
+
+@each $wkey, $wvalue in $weight {
+  .text-#{$wkey} {
+    font-weight: #{$wvalue} ;
+  }
+}
