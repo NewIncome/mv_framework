@@ -14,11 +14,14 @@ Main usage points for the framework used with css, main topics:
 5. [Classes](#Classes)
 6. [Alignment](#Alignment)
 7. [Border](#Border)
+8. [Floats](#Floats)
+9. [Positions](#Positions)
+10. [Utilities](#Utilities)
 
 
 
 ## Breakpoints:
-for added responsiveness for different screen sizes
+For added responsiveness for different screen sizes
 - xs -> 425px
 - sm -> 575px
 - md -> 767px
@@ -26,27 +29,27 @@ for added responsiveness for different screen sizes
 - xl -> 1440px
 
 ## Sizes:
-for col Sizes
+For col Sizes
 - columns go inside rows and are divided in 12 spans (1 - 12)
-for paddings and margins
-- -8 to 8 which translates to: -4rem to 4rem
+For paddings and margins
+- from -8 to 8 which translates to: -4rem to 4rem
 
 ## Sides:
-used mainly for paddings, margins
+Used mainly for paddings, margins
 - t -> top
 - b -> bottom
 - l -> left
 - r -> right
 
 ## Paddings-Margins:
-for each side and for each breakpoint
+For each side and for each breakpoint
   - p(side)-(breakpoint)
     - pt, pb, pl and pr (e.g.: pr-xs)
   - m
     - mt, mb, ml and mr
 
 ## Classes:
-for positioning elements (used mainly for positioning with flex property)
+For positioning elements (used mainly for positioning with flex property)
 - container
 - container-fluid
 - col
@@ -55,21 +58,40 @@ for positioning elements (used mainly for positioning with flex property)
   - flex-col
 
 ## Alignment:
-for x-axis justify-content:
+For x-axis justify-content:
 - flex-
   - center, start, end , between and around
-for y-axis align-self:
+For y-axis align-self:
 - align-
   - center, start and end
 
 ## Border:
-used with rem values from 0 to 4 and worked with for 2 corners ata time
+Used with rem values from 0 to 4 and worked with for 2 corners at a time
 - top (top left and right)
 - bottom (bottom left and right)
 - left (left top and bottom)
 - right (right top and bottom)
 
+## Floats
+Used for floats and clear:
+- float-
+  - l (left), r(right), n(none)
+- clear-
+  - l(left), r(right), n(none), b(both)
 
+## Positions
+Used for setting positiong of elements:
+- pos-
+  - rel(relatve), abs(absolute), fix(fixed)
+  
+## Utilities
+Used to set stling to the text:
+Setting text size:
+- text-
+  - from 1 to 8 which translates to: 0.5rem to 4rem
+Setting font weight:
+- text-
+  - b(bold), n(normal), l(lighter)
 
 ## Githack Clone link:
 * [Production](https://rawcdn.githack.com/NewIncome/mv_framework/b1cfb3e2ecbe3193fe6d7c0096fb541def15fcd0/index.html)
