@@ -6,7 +6,16 @@ Technologies used: **HTML**, **CSS** and **SASS**.
 
 ## Content:
 
-Main usage points for the framework used with css
+Main usage points for the framework used with css, main topics:
+1. [Breakpoints](#Breakpoints)
+2. [Sizes](##Sizes)
+3. [Sides](#Sides)
+4. [Paddings and Margins](#Paddings and Margins)
+5. [Classes](#Classes defined)
+6. [Alignment](#Alignment)
+7. [Border](#Border)
+
+
 
 ## Breakpoints:
 for added responsiveness for different screen sizes
@@ -44,7 +53,7 @@ for positioning elements (used mainly for positioning with flex property)
   - (e.g.: col-xs-1)
   - can work with breakpoints
   - flex-col
- 
+
 ## Alignment:
 for x-axis justify-content:
 - flex-
@@ -59,6 +68,7 @@ used with rem values from 0 to 4 and worked with for 2 corners ata time
 - bottom (bottom left and right)
 - left (left top and bottom)
 - right (right top and bottom)
+
 
 
 ## Githack Clone link:
